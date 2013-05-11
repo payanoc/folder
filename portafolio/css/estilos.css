@@ -1,0 +1,81 @@
+a{
+	color:white;
+	text-decoration: none;
+}
+body{	
+	color:white;
+	font-family: Arial;
+	font-size:16px;
+	text-shadow:1px 1px 0 rgba(0,0,0,.3);
+	background: #363539;
+	width: 80%;
+	margin: 0 auto;
+}
+header{	
+	display: inline-block;
+	padding: 20px;
+}
+header a{
+	color: whitesmoke;
+}
+h1{
+	font-size: 1em;
+}
+h2{
+	font-size: 0.8em;
+}
+nav ul{
+	padding-left: 30%;
+}
+nav ul li{
+	width: 20%;
+	font-size: 1em;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	padding-left: 1em;
+}
+nav ul li a{
+	font-family: 'lucida grande',tahoma,verdana,arial;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	color: #5655ff;	
+}
+.datos_personales,.foto{	
+	float: left;
+	margin-right: 1em;
+}
+.foto img{
+	height: 5em;			
+	width: 4em;
+	margin-left: 30px;	
+}
+#contenedor{
+	width: 100%;
+	display: inline-block;
+}
+#menu{
+	padding-top: 20px;
+	float: left;	
+	width: 30%;
+	border-right: 1px solid white;
+}
+#menu ul{
+	list-style: none;
+}
+#menu ul li{
+	margin: 1em 1em;
+}
+#menu ul li a{	
+	padding: 0em 1em;	
+}
+#menu ul li a:hover{	
+	border-left: 3px solid white;
+}
+#datos{
+	float: left;
+	width: 60%;	
+	background: red;
+}

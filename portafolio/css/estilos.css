@@ -2,18 +2,19 @@ a{
 	color:white;
 	text-decoration: none;
 }
-body{	
+body{		
 	color:white;
 	font-family: Arial;
-	font-size:16px;
+	font-size:16px;	
+	height: 100%;
 	text-shadow:1px 1px 0 rgba(0,0,0,.3);
-	background: #363539;
-	width: 80%;
-	margin: 0 auto;
+	background: #45505c;	
 }
 header{	
+	background: rgb(21, 43, 70);
 	display: inline-block;
-	padding: 20px;
+	padding: 20px 0px 20px 0px;
+	width: 100%;
 }
 header a{
 	color: whitesmoke;
@@ -25,23 +26,25 @@ h2{
 	font-size: 0.8em;
 }
 nav ul{
-	padding-left: 30%;
+	padding-left: 45%;
 }
 nav ul li{
-	width: 20%;
-	font-size: 1em;
+	width: 20%;	
 	display: inline-block;
 	vertical-align: middle;
 	text-align: center;
 	padding-left: 1em;
 }
 nav ul li a{
-	font-family: 'lucida grande',tahoma,verdana,arial;
-	font-size: 1.1em;
+	font-family: arial;
+	font-size: 1em;
 	font-weight: bold;
 }
 nav ul li a:hover{
-	color: #5655ff;	
+	color: rgb(99, 105, 228);	
+}
+section{
+		
 }
 .datos_personales,.foto{	
 	float: left;
@@ -55,27 +58,42 @@ nav ul li a:hover{
 #contenedor{
 	width: 100%;
 	display: inline-block;
+	background: rgba(238, 238, 238, 0.31);
 }
-#menu{
-	padding-top: 20px;
+#menu{	
 	float: left;	
-	width: 30%;
-	border-right: 1px solid white;
+	width: 30%;	
+	height: 100%;
+	background: rgba(0,0,0,0.2);
 }
 #menu ul{
-	list-style: none;
+	list-style: none;	
+	overflow: hidden;	
+	padding-left: 0px;
 }
 #menu ul li{
+	position: relative;
+	opacity: 0;
+	left: -200px;
 	margin: 1em 1em;
+	-webkit-transition:left 0.5s linear;
 }
 #menu ul li a{	
 	padding: 0em 1em;	
 }
 #menu ul li a:hover{	
-	border-left: 3px solid white;
+	border-left: 3px solid white;	
 }
 #datos{
 	float: left;
-	width: 60%;	
-	background: red;
+	width: 60%;		
+	margin: 1em 0 0 5%;
+	min-height: 400px;	
+	background: black;
+}
+#panel{
+	background: rgb(27, 50, 77);
+	width: 80%;
+	margin: 0 auto;
+	height: 100%;
 }

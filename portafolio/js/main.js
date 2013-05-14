@@ -2,14 +2,14 @@ $(document).on("ready",iniciar);
 function inicio()
 {
 	iniciar();
-	$("#ver_cv").on("click",movida);	
+	$("#ver_cv").on("click",iniciar);	
 }
-function iniciar(){			
+function iniciar(){						
 		var cs={
-			color:"blue"
-		};		
-		$("#menu ul").append('<li><a href=# id=datos_p>Datos Personales</a></li>');
-		$("#ver_cv").css(cs);		
+			opacity:1,
+			left:5
+		};				
+		$("#lista_portafolio li").css(cs);		
 }
 function movida()
 {
